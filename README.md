@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   <img src="comms/5100_SST_Hackathon_update_-_digital_screen_AL1c.jpg" width="80%" alt="ElectroAI Hackathon Splash Image">
 </div>
 
@@ -27,19 +27,33 @@ This is more than OCR. It requires **Engineering Translation**:
 
 ## Success Criteria
 
-Longitudinal patient data presented in Excel reflects patient history contained in Word document.
+- **Engineering usefulness:** Outputs should be directly usable in a real engineering workflow, such as simulation, documentation, review, or further design work.
+- **Technical accuracy:** Solutions should identify components, values, topology, and functional blocks with defensible engineering logic.
+- **Structured output:** Teams should produce clear machine-readable or engineer-ready outputs such as netlists, structured tables, JSON, or simulator scaffolds.
+- **Transparent reasoning:** Good solutions should highlight ambiguities, assumptions, and possible errors rather than hiding uncertainty.
+- **Documentation quality:** Each team should submit a clear IEEE-style paper that explains the problem, approach, technical decisions, results, and limitations in a professional engineering format.
+- **Practical delivery:** Projects should be demonstrated as credible working prototypes, not just conceptual ideas or slideware.
 
 ## Judge Panel
 
 - **[Dr Dave Muir](https://uk.linkedin.com/in/dr-dave-d-muir-883b3b39)**: Lecturer Eng. Systems (AI-Automation, Electrical & STEM), Prog. Director Renewable Energy & Power Sys. Man. MSc., Dept of Engineering, School of Science & Technology, University Sustainability Operations Lead, Co-Chair Network for Racial Justice, City St George's University of London.
 - **[Leotis Buchanan](https://ca.linkedin.com/in/leotis-buchanan)**: AI/ML Engineer, PhD Research Student at City St George's, University of London.
-- **[TBA]()
+- **TBA**
 
 ## Event Schedule & Support
 
-### Opening (Tue April 7)
-- Online Session - ElectroAI Event Introduction
-Join use for the online introduction and selection of teams
+| Day | Date | Time | Event | Lead | Location | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tuesday | April 7, 2026 | 11:00-12:00 | Intro session | Dave Muir | Microsoft Teams / AG06 | Event introduction and team selection |
+| Wednesday | April 8, 2026 | 10:00-12:00 | Setting up AI Agents | Daniel Sikar | Microsoft Teams / AG01 | Turn up whenever you can |
+| Wednesday | April 8, 2026 | 15:00-17:00 | Setting up AI Agents | Daniel Sikar | Microsoft Teams / AG06 | Turn up whenever you can |
+| Thursday | April 9, 2026 | 10:00-12:00 | Data Visualisation | Sofiia Myrvoda | Microsoft Teams / A111 | Turn up whenever you can |
+| Thursday | April 9, 2026 | 15:00-17:00 | Coding with LLM APIs using Python and Google Colab | Syed Mahbubul Huq | Microsoft Teams / AG06 | Turn up whenever you can |
+| Thursday-Friday | April 9-10, 2026 | 21:00-08:00 | Allnighter | Daniel Sikar | Microsoft Teams / TBC | Turn up whenever you can, whether you are starting from scratch or fine-tuning your project for the final presentation. Pizza, Monster and snacks provided |
+| Friday | April 10, 2026 | 10:00-13:00 | Presentations, deliberations and awards | Dr Dave Muir | Microsoft Teams / AG01 | Lunch provided |
+| Friday | April 10, 2026 | 14:00-16:00 | Presentations, deliberations and awards | Dr Dave Muir | Microsoft Teams / AG04 | Lunch provided |
+
+**All online sessions will use the Microsoft Teams meeting link listed below.**
 ```
 Microsoft Teams meeting
 
@@ -54,13 +68,13 @@ Nu2yD6VN
 ```
 
 ### Workshops (Tue April 7 – Thu April 9)
-Join us for three days of focused technical sessions (1 hour per day per team):
+Join us for three days of focused technical sessions covering agent setup, LLM API workflows, and technical documentation:
 - **Building AI Agents:** Learn how to design workflows specifically for schematic analysis.
 - **Programmatic LLM Interaction:** Master expert prompting techniques to interact with models programmatically—**no previous software engineering skills required.**
 - **Data & Documentation:** Techniques for effective data visualization and professional engineering documentation.
 
 ### The Allnighter (Thu April 9)
-Gather at a venue near CSG for the official coding "allnighter." We’ll provide the fuel (**pizza + Monster**) while you start from scratch or fine-tune your project for the final presentation.
+Join the overnight build session from **21:00 to 08:00** online or in person, with the in-person venue to be confirmed. Pizza, Monster, and snacks will be provided.
 
 ### Support & Baseline
 - **Baseline Solution:** Every team will receive a functional baseline solution to jumpstart their project.
@@ -86,13 +100,16 @@ Use this "System Instruction" to ground your AI agent in the hackathon’s speci
 > 4. **Validate:** Identify potential ambiguities or design rule violations in the source image.
 >
 > **Success Criteria:**
-> - **Actionability:** Output must be usable by an engineer or a tool.
-> - **Engineering Logic:** Prioritize topological correctness over aesthetic reproduction.
-> - **Transparency:** Flag ambiguities rather than guessing incorrectly.
+> - **Engineering usefulness:** Produce outputs that an engineer can use directly in simulation, documentation, review, or further design work.
+> - **Technical accuracy:** Prioritize correct components, values, topology, and functional interpretation over superficial visual similarity.
+> - **Structured output:** Return machine-readable or engineer-ready outputs such as netlists, structured tables, JSON, or simulator scaffolds.
+> - **Transparency:** Flag ambiguities, assumptions, and possible errors rather than guessing incorrectly.
+> - **Documentation support:** Contribute material that can feed into a clear IEEE-style paper describing the method, results, and limitations.
 
 ---
 
 ## Outputs & Judging
-- **IEEE-Standard Paper:** Each team will produce a research paper written to professional IEEE publication standards.
-- **Professional Judging:** Entries will be evaluated by expert Electrical Engineers based on technical rigor and engineering utility.
-- **Transferable Skills:** Gain expertise in agentic workflows and prompt engineering—skills you can apply across all your academic modules and future career.
+- **Working Prototype:** Each team should deliver a credible prototype that demonstrates engineering translation in practice, not just a concept.
+- **IEEE-Style Paper:** Each team should submit a professional paper documenting the problem, method, technical decisions, results, and limitations.
+- **Professional Judging:** Entries will be judged on engineering usefulness, technical accuracy, structured output quality, and clarity about assumptions or ambiguity.
+- **Transferable Skills:** Participants will build practical experience in agentic workflows, technical documentation, and engineering-focused AI development.
