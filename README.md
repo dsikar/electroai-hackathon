@@ -10,7 +10,6 @@ The **ElectroAI Hackathon** (April 6 - 10, 2026) is a technically serious studen
 
 **[Register Now](https://forms.gle/Ajmfw7kZdqPx9pWHA)**
 
-
 ## The Problem Statement
 Engineering design is visual before it is digital. Schematics are sketched on whiteboards, scanned from legacy documentation, or shared as screenshots. While readable by engineers, these artifacts are not directly usable by the tools that matter—simulators, layout editors, and design environments like KiCad, LTspice, or Proteus.
 
@@ -24,7 +23,6 @@ This is more than OCR. It requires **Engineering Translation**:
 - **Inferring** circuit topology and connectivity.
 - **Reasoning** about design intent and functional blocks.
 - **Generating** structured files (netlists, scaffolds, or tables) usable by professional EDA tools.
-
 ---
 
 ## Success Criteria
@@ -38,6 +36,22 @@ Longitudinal patient data presented in Excel reflects patient history contained 
 - **[TBA]()
 
 ## Event Schedule & Support
+
+### Opening (Tue April 7)
+- Online Session - ElectroAI Event Introduction
+Join use for the online introduction and selection of teams
+```
+Microsoft Teams meeting
+
+Join:
+https://teams.microsoft.com/meet/313823308641173?p=bQU78Ar5AGnrIU2yRj
+
+Meeting ID:
+313 823 308 641 173
+
+Passcode:
+Nu2yD6VN
+```
 
 ### Workshops (Tue April 7 – Thu April 9)
 Join us for three days of focused technical sessions (1 hour per day per team):
