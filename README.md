@@ -113,7 +113,3 @@ Use this "System Instruction" to ground your AI agent in the hackathon’s speci
 - **IEEE-Style Paper:** Each team should submit a professional paper documenting the problem, method, technical decisions, results, and limitations.
 - **Professional Judging:** Entries will be judged on engineering usefulness, technical accuracy, structured output quality, and clarity about assumptions or ambiguity.
 - **Transferable Skills:** Participants will build practical experience in agentic workflows, technical documentation, and engineering-focused AI development.
-
-
-
-asdfsd
