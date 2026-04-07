@@ -14,7 +14,7 @@
 | 10 | Syed to do a workshop about API usage | Daniel | High | Not Started | Wednesday 8th, anytime except 2.30pm to 3.30pm |
 | 11 | Workshop on AI Agents with Gemini CLI | Daniel | High | Not Started | Wednesday 8th, 09:00-12:00 and 15:00-17:30 |
 | 12 | Book rooms | Daniel | High | Not Started | |
-| 13 | Create Gemini CLI, Codex, and Claude Code install page | Daniel | High | Not Started | Installation guide page for hackathon participants |
+| 14 | Expecting reply from Cubic and Microsoft Judges | Dave | High | In progress | Reply by Wednesday Apr 8 |
 
 * get agent to add link to speakers
 * mark 4 as owned by Dave, status done
