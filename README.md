@@ -55,7 +55,7 @@ You can use the following article as an example of the expected structure and de
 
 - **[Dr Dave Muir](https://uk.linkedin.com/in/dr-dave-d-muir-883b3b39)**: Lecturer Eng. Systems (AI-Automation, Electrical & STEM), Prog. Director Renewable Energy & Power Sys. Man. MSc., Dept of Engineering, School of Science & Technology, University Sustainability Operations Lead, City St George's University of London.
 - **[Leotis Buchanan](https://ca.linkedin.com/in/leotis-buchanan)**: AI/ML Engineer, PhD Research Student at City St George's, University of London.
-- **[David Lee](https://www.cubic.com/transportation)**
+- **[David Lee](https://www.cubic.com/transportation)**: System Support Engineer, Cubic Transportation Systems
 
 ## Event Schedule & Support
 
