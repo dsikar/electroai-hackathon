@@ -61,7 +61,7 @@ You can use the following article as an example of the expected structure and de
 
 | Day | Date | Time | Event | Lead | Location | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tuesday | April 7, 2026 | 11:00-12:00 | Intro session | Dave Muir | Microsoft Teams / AG06 | Event introduction and team selection |
+| Tuesday | April 7, 2026 | 11:00-12:00 | [Intro session](docs/EEAI_IntroRev2.pptx) | Dave Muir | Microsoft Teams / AG06 | Event introduction and team selection |
 | Wednesday | April 8, 2026 | 10:00-12:00 | Setting up AI Agents | Daniel Sikar | Microsoft Teams / AG01 | Turn up whenever you can, Dave will also be present for support |
 | Wednesday | April 8, 2026 | 15:00-17:00 | Setting up AI Agents | Daniel Sikar | Microsoft Teams / AG06 | Turn up whenever you can, Dave will also be present for support |
 | Thursday | April 9, 2026 | 10:00-11:30 | Data Visualisation | Sofiia Myrvoda | Microsoft Teams / A111 | Turn up whenever you can, Dave will also be present for support |
@@ -94,6 +94,7 @@ Join us for three days of focused technical sessions covering agent setup, LLM A
 Join the overnight build session from **21:00 to 08:00** online or in person, with the in-person venue to be confirmed. Pizza, Monster, and snacks will be provided.
 
 ### Support & Baseline
+- **Introduction Presentation:** [EEAI_IntroRev2.pptx](docs/EEAI_IntroRev2.pptx)
 - **Baseline Solution:** Every team will receive a functional baseline solution to jumpstart their project.
 - **Baseline Solution 1:** [Image2Spice](https://github.com/EndryuN/Image2Spice) (local clone: [baseline-solution-1](baseline-solution-1)) was provided by MSc Data Science student Andrew Nguyen who also participated in the Clinical AI Hackathon.
 - **Expert Mentoring:** Access to mentors specialized in AI agentic tools and electrical engineering.
