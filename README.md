@@ -64,7 +64,7 @@ You can use the following article as an example of the expected structure and de
 | Tuesday | April 7, 2026 | 11:00-12:00 | [Intro session pptx](docs/EEAI_IntroRev2.pptx) | Dave Muir | Microsoft Teams / AG06 | Event introduction and team selection |
 | Wednesday | April 8, 2026 | 10:00-12:00 | Setting up AI Agents | Daniel Sikar | Microsoft Teams / AG01 | Turn up whenever you can, Dave will also be present for support |
 | Wednesday | April 8, 2026 | 15:00-17:00 | Setting up AI Agents | Daniel Sikar | Microsoft Teams / AG06 | Turn up whenever you can, Dave will also be present for support |
-| Thursday | April 9, 2026 | 10:00-11:30 | [Data Visualistaion Presentation Slides](docs/SofiiaMyrvodaDataVizPresentation.pdf) | Sofiia Myrvoda | Microsoft Teams / A111 | Turn up whenever you can, Dave will also be present for support |
+| Thursday | April 9, 2026 | 10:00-11:30 | [Data Visualisation Presentation Slides](docs/SofiiaMyrvodaDataVizPresentation.pdf) | Sofiia Myrvoda | Microsoft Teams / A111 | Turn up whenever you can, Dave will also be present for support |
 | Thursday | April 9, 2026 | 13:30-15:00 | Coding with LLM APIs using Python and Google Colab | Syed Mahbubul Huq | Microsoft Teams / A111 | Turn up whenever you can, Dave and Daniel will also be present for support |
 | Thursday-Friday | April 9-10, 2026 | 21:00-08:00 | Allnighter | Daniel Sikar | Microsoft Teams / TBC | Turn up whenever you can, whether you are starting from scratch or fine-tuning your project for the final presentation. Pizza, Monster and snacks provided |
 | Friday | April 10, 2026 | 10:00-13:00 | Presentations, deliberations and awards | Dr Dave Muir | Microsoft Teams / AG01 | Lunch provided |
