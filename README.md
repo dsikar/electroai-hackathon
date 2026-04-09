@@ -67,8 +67,8 @@ You can use the following article as an example of the expected structure and de
 | Thursday | April 9, 2026 | 10:00-11:30 | [Data Visualisation Presentation Slides](docs/SofiiaMyrvodaDataVizPresentation.pdf) | Sofiia Myrvoda | Microsoft Teams / A111 | Turn up whenever you can, Dave will also be present for support |
 | Thursday | April 9, 2026 | 13:30-15:00 | Coding with LLM APIs using Python and Google Colab | Syed Mahbubul Huq | Microsoft Teams / A111 | Turn up whenever you can, Dave and Daniel will also be present for support |
 | Thursday-Friday | April 9-10, 2026 | 21:00-08:00 | Allnighter | Daniel Sikar | Microsoft Teams / TBC | Turn up whenever you can, whether you are starting from scratch or fine-tuning your project for the final presentation. Pizza, Monster and snacks provided |
-| Friday | April 10, 2026 | 10:00-13:00 | Presentations, deliberations and awards | Dr Dave Muir | Microsoft Teams / AG01 | Lunch provided |
-| Friday | April 10, 2026 | 14:00-16:00 | Presentations, deliberations and awards | Dr Dave Muir | Microsoft Teams / AG04 | Lunch provided |
+| Friday | April 10, 2026 | 10:00-13:00 | Fine-tuning and presentation practice | Daniel | Microsoft Teams / AG01 | Lunch provided 13:00-14:00 |
+| Friday | April 10, 2026 | 14:00-16:00 | Presentations, deliberations and awards | Dr Dave Muir, Leotis Buchanan, David Lee| Microsoft Teams / AG04 | Lunch provided 13:00-14:00 |
 
 **All online sessions will use the Microsoft Teams meeting link listed below.**
 ```
