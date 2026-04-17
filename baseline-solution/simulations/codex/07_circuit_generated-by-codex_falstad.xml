@@ -1,0 +1,13 @@
+<cir>
+<text>
+&lt;xml&gt;
+  &lt;circuit&gt;
+    &lt;resources&gt;
+      &lt;resistor x="512" y="304" length="100.0" orientation="0"/&gt;
+      &lt;inductor x="624" y="304" length="100.0" orientation="90"/&gt;
+      &lt;voltageSource type="AC" x="512" y="384"/&gt;
+    &lt;/resources&gt;
+  &lt;/circuit&gt;
+&lt;/xml&gt;
+</text>
+</cir>

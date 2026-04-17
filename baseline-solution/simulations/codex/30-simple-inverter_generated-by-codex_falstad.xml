@@ -1,0 +1,5 @@
+<cir>
+<text>
+&lt;circuit&gt;&lt;voltage name="V1" loc="128 176 128 272" "12V" /&gt;&lt;out name="AC outlet" loc="384 144 384 224" voltage="120V/220V" /&gt;&lt;resistor name="R1" loc="224 144 224 240" resistance="68Ω" /&gt;&lt;resistor name="R2" loc="336 144 336 240" resistance="68Ω" /&gt;&lt;qtransistor name="Q1" loc="224 240 288 272" type="NPN" /&gt;&lt;qtransistor name="Q2" loc="336 240 336 320" type="PNP" /&gt;&lt;wire loc="176 240 224 240" /&gt;&lt;wire loc="336 144 384 272" /&gt;&lt;switch name="S1" loc="48 176 128 176" state="off" /&gt;&lt;/circuit&gt;
+</text>
+</cir>

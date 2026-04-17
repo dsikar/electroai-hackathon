@@ -1,0 +1,11 @@
+<cir>
+  <circuit>
+    <voltage sourceId="0" terminalA="1" terminalB="0" voltage="30"/>
+    <resistor terminalA="1" terminalB="2" resistance="2"/>
+    <resistor terminalA="3" terminalB="0" resistance="1"/>
+    <voltage sourceId="1" terminalA="3" terminalB="2" voltage="10"/>
+    <resistor terminalA="4" terminalB="2" resistance="8"/>
+    <wire terminalA="0" terminalB="4"/>
+    <wire terminalA="1" terminalB="3"/>
+  </circuit>
+</cir>

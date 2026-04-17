@@ -1,0 +1,5 @@
+<cir>
+<text>
+&lt;circuit schematic_version="2.45"&gt;&lt;comp name="Voltage Source" width="34" height="10" value="Vin" x="436" y="314"/&gt;&lt;comp name="Capacitor" width="16" height="32" value="330nF" x="492" y="314"/&gt;&lt;comp name="Resistor" width="16" height="32" x="537" y="380"/&gt;&lt;comp name="Resistor" width="32" height="16" x="537" y="248"/&gt;&lt;comp name="Capacitor" width="16" height="32" value="330nF" x="652" y="380"/&gt;&lt;/circuit&gt;
+</text>
+</cir>

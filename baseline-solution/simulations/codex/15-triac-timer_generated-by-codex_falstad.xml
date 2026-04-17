@@ -1,0 +1,49 @@
+<cir>
+<text>
+&lt;circuit name&gt; Example Circuit &lt;/circuit&gt;
+&lt;comp name="Source" ref_des="V1"&gt;
+&lt;value&gt;220V AC&lt;/value&gt;
+&lt;/comp&gt;
+&lt;resistor name="R1" ref_des="R1"&gt;
+&lt;value&gt;1k&lt;/value&gt;
+&lt;/resistor&gt;
+&lt;resistor name="R2" ref_des="R2"&gt;
+&lt;value&gt;1k&lt;/value&gt;
+&lt;/resistor&gt;
+&lt;resistor name="R3" ref_des="R3"&gt;
+&lt;value&gt;2.2M&lt;/value&gt;
+&lt;/resistor&gt;
+&lt;resistor name="R4" ref_des="R4"&gt;
+&lt;value&gt;1k&lt;/value&gt;
+&lt;/resistor&gt;
+&lt;capacitor name="C1" ref_des="C1"&gt;
+&lt;value&gt;1000uF&lt;/value&gt;
+&lt;/capacitor&gt;
+&lt;capacitor name="C2" ref_des="C2"&gt;
+&lt;value&gt;0.22uF&lt;/value&gt;
+&lt;/capacitor&gt;
+&lt;diode name="D1" ref_des="D1"&gt;
+&lt;value&gt;1N4007&lt;/value&gt;
+&lt;/diode&gt;
+&lt;zener name="D2" ref_des="D2"&gt;
+&lt;value&gt;12V&lt;/value&gt;
+&lt;/zener&gt;
+&lt;led name="LED1" ref_des="LED1"&gt;
+&lt;/led&gt;
+&lt;transistor type="NPN" name="Q1" ref_des="Q1"&gt;
+&lt;type&gt;BC547&lt;/type&gt;
+&lt;/transistor&gt;
+&lt;transistor type="PNP" name="Q2" ref_des="Q2"&gt;
+&lt;type&gt;BC557&lt;/type&gt;
+&lt;/transistor&gt;
+&lt;triac name="TRIAC1" ref_des="TRIAC1"&gt;
+&lt;type&gt;BT136&lt;/type&gt;
+&lt;/triac&gt;
+&lt;button name="PB1" ref_des="PB1"&gt;
+&lt;/button&gt;
+&lt;connection name="Load"&gt;
+&lt;type&gt;Load&lt;/type&gt;
+&lt;/connection&gt;
+&lt;/circuit&gt;
+</text>
+</cir>

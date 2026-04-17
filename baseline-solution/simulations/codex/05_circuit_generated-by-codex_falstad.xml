@@ -1,0 +1,33 @@
+<cir>
+<text>
+&lt;circuit&gt;
+&lt;components&gt;
+&lt;diode name="D1" anode="node1" cathode="node2"/&gt;
+&lt;diode name="D2" anode="node3" cathode="node4"/&gt;
+&lt;diode name="D3" anode="node5" cathode="node6"/&gt;
+&lt;diode name="D4" anode="node7" cathode="node8"/&gt;
+&lt;resistor name="R" value="R" node1="node9" node2="node10"/&gt;
+&lt;transformer primary_node1="node11" primary_node2="node12" secondary_node1="node13" secondary_node2="node14"/&gt;
+&lt;voltage_source name="Vs" type="AC" node1="node15" node2="node16"/&gt;
+&lt;/components&gt;
+&lt;connections&gt;
+&lt;node id="node1"/&gt;
+&lt;node id="node2"/&gt;
+&lt;node id="node3"/&gt;
+&lt;node id="node4"/&gt;
+&lt;node id="node5"/&gt;
+&lt;node id="node6"/&gt;
+&lt;node id="node7"/&gt;
+&lt;node id="node8"/&gt;
+&lt;node id="node9"/&gt;
+&lt;node id="node10"/&gt;
+&lt;node id="node11"/&gt;
+&lt;node id="node12"/&gt;
+&lt;node id="node13"/&gt;
+&lt;node id="node14"/&gt;
+&lt;node id="node15"/&gt;
+&lt;node id="node16"/&gt;
+&lt;/connections&gt;
+&lt;/circuit&gt;
+</text>
+</cir>

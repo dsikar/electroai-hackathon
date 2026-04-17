@@ -1,0 +1,26 @@
+<cir>
+  <components>
+    <resistor name="R1" value="10k" nodes="Input VR1-Variable Pot"/>
+    <capacitor name="C1" value="0.1uF" nodes="VR1-Variable Pot IC1-LM386"/>
+    <resistor name="R2" value="1.2k" nodes="IC1-LM386 VCC-9V"/>
+    <capacitor name="C3" value="10uF" nodes="IC1-LM386"/>
+    <resistor name="R3" value="10k" nodes="IC1-LM386 GND"/>
+    <capacitor name="C4" value="10uF" nodes="IC1-LM386 GND"/>
+    <capacitor name="C5" value="220uF" nodes="IC1-LM386 Speaker"/>
+  </components>
+  <nodes>
+    <node name="Input"/>
+    <node name="VR1-Variable Pot"/>
+    <node name="IC1-LM386"/>
+    <node name="VCC-9V"/>
+    <node name="GND"/>
+    <node name="Speaker"/>
+  </nodes>
+  <connectors>
+    <connector start="Input" end="VR1-Variable Pot"/>
+    <connector start="VR1-Variable Pot" end="IC1-LM386"/>
+    <connector start="IC1-LM386" end="VCC-9V"/>
+    <connector start="IC1-LM386" end="GND"/>
+    <connector start="IC1-LM386" end="Speaker"/>
+  </connectors>
+</cir>

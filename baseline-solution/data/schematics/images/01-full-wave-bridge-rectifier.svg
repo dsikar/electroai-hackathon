@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+  <defs>
+    <style>
+      .wire { fill: none; stroke: #111; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #111; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .txt { fill: #111; font-family: "Times New Roman", serif; font-size: 34px; }
+      .small { fill: #111; font-family: "Times New Roman", serif; font-size: 28px; }
+      .blue { fill: #26a7df; font-family: "Times New Roman", serif; font-size: 34px; }
+    </style>
+  </defs>
+
+  <circle cx="48" cy="52" r="10" class="thin"/>
+  <circle cx="48" cy="282" r="10" class="thin"/>
+  <text x="36" y="112" class="txt">+</text>
+  <text x="40" y="150" class="txt">−</text>
+  <text x="16" y="206" class="txt">ac</text>
+  <text x="16" y="242" class="txt">line</text>
+  <text x="16" y="278" class="txt">voltage</text>
+
+  <path d="M58 52 H240" class="wire"/>
+  <path d="M58 282 H240" class="wire"/>
+
+  <path d="M240 52
+           c18 0 18 30 0 30
+           c-18 0 -18 30 0 30
+           c18 0 18 30 0 30
+           c-18 0 -18 30 0 30" class="wire"/>
+  <path d="M282 52
+           c18 0 18 30 0 30
+           c-18 0 -18 30 0 30
+           c18 0 18 30 0 30
+           c-18 0 -18 30 0 30" class="wire"/>
+  <path d="M312 52
+           c18 0 18 30 0 30
+           c-18 0 -18 30 0 30
+           c18 0 18 30 0 30
+           c-18 0 -18 30 0 30" class="wire"/>
+  <path d="M354 52
+           c18 0 18 30 0 30
+           c-18 0 -18 30 0 30
+           c18 0 18 30 0 30
+           c-18 0 -18 30 0 30" class="wire"/>
+
+  <path d="M402 52 H670" class="wire"/>
+  <path d="M402 282 H670" class="wire"/>
+
+  <text x="430" y="88" class="txt">+</text>
+  <text x="438" y="224" class="txt">v<tspan baseline-shift="sub" font-size="24">s</tspan></text>
+  <text x="432" y="292" class="txt">−</text>
+
+  <circle cx="670" cy="52" r="8" fill="#111"/>
+  <circle cx="670" cy="282" r="8" fill="#111"/>
+  <circle cx="564" cy="168" r="8" fill="#111"/>
+  <circle cx="776" cy="168" r="8" fill="#111"/>
+
+  <path d="M670 52 L564 168" class="wire"/>
+  <path d="M670 52 L776 168" class="wire"/>
+  <path d="M564 168 L670 282" class="wire"/>
+  <path d="M776 168 L670 282" class="wire"/>
+
+  <path d="M564 168 H486" class="wire"/>
+  <path d="M486 168 v26" class="wire"/>
+  <path d="M474 194 h24" class="wire"/>
+  <path d="M464 208 h44" class="wire"/>
+
+  <path d="M776 168 H710" class="wire"/>
+  <path d="M564 168 H618" class="wire"/>
+  <path d="M618 168 H722" class="thin" stroke-dasharray="0"/>
+  <path d="M722 168 H776" class="wire"/>
+  <path d="M618 158
+           c12 10 20 10 32 0
+           c12 -10 20 -10 32 0
+           c12 10 20 10 32 0" class="thin"/>
+
+  <text x="662" y="195" class="txt">R</text>
+  <text x="748" y="205" class="blue">+</text>
+  <text x="612" y="205" class="blue">−</text>
+  <text x="690" y="194" class="blue">v<tspan baseline-shift="sub" font-size="22">o</tspan></text>
+
+  <path d="M642 82 l22 16 l-44 20 z" class="thin"/>
+  <path d="M664 98 l18 -18" class="thin"/>
+  <path d="M662 116 l18 -18" class="thin"/>
+  <text x="598" y="106" class="txt">D<tspan baseline-shift="sub" font-size="22">4</tspan></text>
+
+  <path d="M698 88 l22 16 l-44 20 z" class="thin" transform="rotate(180 698 88)"/>
+  <path d="M726 90 l18 18" class="thin"/>
+  <path d="M724 108 l18 18" class="thin"/>
+  <text x="792" y="116" class="txt">D<tspan baseline-shift="sub" font-size="22">1</tspan></text>
+
+  <path d="M620 238 l22 -16 l-44 -20 z" class="thin"/>
+  <path d="M642 222 l18 18" class="thin"/>
+  <path d="M640 204 l18 18" class="thin"/>
+  <text x="590" y="278" class="txt">D<tspan baseline-shift="sub" font-size="22">2</tspan></text>
+
+  <path d="M720 238 l22 -16 l-44 -20 z" class="thin" transform="rotate(180 720 238)"/>
+  <path d="M748 222 l18 -18" class="thin"/>
+  <path d="M746 204 l18 -18" class="thin"/>
+  <text x="786" y="278" class="txt">D<tspan baseline-shift="sub" font-size="22">3</tspan></text>
+
+  <text x="440" y="396" class="txt">(a)</text>
+</svg>

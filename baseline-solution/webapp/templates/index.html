@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agent Circuit Pipeline</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">ElectroAI Pipeline Console</p>
+        <h1>Run Codex, Claude, and Gemini across a schematic folder.</h1>
+        <p class="lede">
+          Configure the source and output directories, launch the full agent matrix,
+          and monitor task completion with live progress and timers.
+        </p>
+      </section>
+
+      <section class="panel controls">
+        <div class="control-grid">
+          <label>
+            <span>Input folder</span>
+            <input id="inputDir" type="text" spellcheck="false">
+          </label>
+          <label>
+            <span>Output root</span>
+            <input id="outputRoot" type="text" spellcheck="false">
+          </label>
+          <label class="toggle-field">
+            <span>LTSpice PNG</span>
+            <span class="toggle-row">
+              <input id="ltspicePngEnabled" type="checkbox">
+              <span>Convert generated LTSpice SVG files to PNG</span>
+            </span>
+          </label>
+        </div>
+        <div class="button-row">
+          <button id="startButton" class="primary">Start run</button>
+          <button id="cancelButton">Cancel run</button>
+          <button id="refreshButton">Refresh results</button>
+        </div>
+        <p id="message" class="message"></p>
+      </section>
+
+      <section class="panel summary">
+        <div class="summary-grid">
+          <article class="metric">
+            <span class="label">Overall progress</span>
+            <strong id="overallValue">0 / 0</strong>
+            <div class="bar"><div id="overallBar" class="bar-fill"></div></div>
+          </article>
+          <article class="metric">
+            <span class="label">Run status</span>
+            <strong id="runStatus">idle</strong>
+            <span id="runTimer" class="subtle">No active run</span>
+          </article>
+          <article class="metric">
+            <span class="label">Current task</span>
+            <strong id="currentTask">None</strong>
+            <span id="currentTaskMeta" class="subtle">Waiting</span>
+          </article>
+        </div>
+        <div id="agentSummary" class="agent-summary"></div>
+        <div id="agentConfig" class="agent-config"></div>
+        <div id="toolConfig" class="agent-config"></div>
+      </section>
+
+      <section class="panel images">
+        <div class="panel-head">
+          <h2>Discovered images</h2>
+          <span id="imageCount" class="subtle">0 files</span>
+        </div>
+        <ul id="imageList" class="image-list"></ul>
+      </section>
+
+      <section class="panel tasks">
+        <div class="panel-head">
+          <h2>Task matrix</h2>
+          <span class="subtle">One task per image-agent pair</span>
+        </div>
+        <div id="taskList" class="task-list"></div>
+      </section>
+
+      <section class="panel debug">
+        <div class="panel-head">
+          <h2>Debug</h2>
+          <span class="subtle">Live backend and task diagnostics</span>
+        </div>
+        <pre id="debugError" class="debug-error"></pre>
+        <div id="debugLog" class="debug-log"></div>
+      </section>
+    </main>
+
+    <template id="agentMetricTemplate">
+      <article class="metric agent-metric">
+        <span class="label agent-label"></span>
+        <strong class="agent-value"></strong>
+        <div class="bar"><div class="bar-fill"></div></div>
+      </article>
+    </template>
+
+    <template id="taskTemplate">
+      <article class="task-card">
+        <div class="task-head">
+          <div>
+            <p class="task-title"></p>
+            <p class="task-subtitle"></p>
+          </div>
+          <span class="task-status"></span>
+        </div>
+        <p class="task-signpost"></p>
+        <div class="task-meta">
+          <span class="task-timer"></span>
+          <span class="task-duration"></span>
+        </div>
+        <div class="task-previews">
+          <section class="task-preview task-preview-falstad">
+            <p class="task-preview-label">Falstad Preview</p>
+            <button type="button" class="preview-button falstad-preview-button" hidden>
+              <img class="task-preview-image falstad-preview-image" alt="Falstad preview">
+            </button>
+            <p class="task-preview-placeholder falstad-preview-placeholder">Falstad preview unavailable</p>
+          </section>
+          <section class="task-preview task-preview-ltspice">
+            <p class="task-preview-label">LTSpice Preview</p>
+            <button type="button" class="preview-button ltspice-preview-button" hidden>
+              <img class="task-preview-image ltspice-preview-image" alt="LTSpice preview">
+            </button>
+            <p class="task-preview-placeholder ltspice-preview-placeholder">LTSpice preview unavailable</p>
+          </section>
+        </div>
+        <p class="task-command"></p>
+        <div class="task-files"></div>
+        <ul class="task-issues"></ul>
+        <details class="task-debug">
+          <summary>preview debug / stdout / stderr</summary>
+          <pre class="task-preview-debug"></pre>
+          <pre class="task-stdout"></pre>
+          <pre class="task-stderr"></pre>
+        </details>
+      </article>
+    </template>
+
+    <div id="previewModal" class="preview-modal" hidden>
+      <button id="previewModalClose" class="preview-modal-close" type="button" aria-label="Close preview">Close</button>
+      <div class="preview-modal-backdrop"></div>
+      <figure class="preview-modal-figure">
+        <img id="previewModalImage" alt="Falstad preview enlarged">
+        <figcaption id="previewModalCaption"></figcaption>
+      </figure>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

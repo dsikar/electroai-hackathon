@@ -1,0 +1,32 @@
+<cir>
+<text>
+&lt;circuit&gt;
+  &lt;voltage&gt;
+    &lt;x&gt;96&lt;/x&gt;
+    &lt;y&gt;112&lt;/y&gt;
+    &lt;flags&gt;0&lt;/flags&gt;
+    &lt;voltage&gt;15&lt;/voltage&gt;
+  &lt;/voltage&gt;
+  &lt;resistor&gt;
+    &lt;x&gt;192&lt;/x&gt;
+    &lt;y&gt;112&lt;/y&gt;
+    &lt;ohms&gt;3&lt;/ohms&gt;
+  &lt;/resistor&gt;
+  &lt;resistor&gt;
+    &lt;x&gt;96&lt;/x&gt;
+    &lt;y&gt;112&lt;/y&gt;
+    &lt;ohms&gt;14&lt;/ohms&gt;
+  &lt;/resistor&gt;
+  &lt;resistor&gt;
+    &lt;x&gt;192&lt;/x&gt;
+    &lt;y&gt;176&lt;/y&gt;
+    &lt;ohms&gt;5&lt;/ohms&gt;
+  &lt;/resistor&gt;
+  &lt;resistor&gt;
+    &lt;x&gt;96&lt;/x&gt;
+    &lt;y&gt;256&lt;/y&gt;
+    &lt;ohms&gt;4&lt;/ohms&gt;
+  &lt;/resistor&gt;
+&lt;/circuit&gt;
+</text>
+</cir>

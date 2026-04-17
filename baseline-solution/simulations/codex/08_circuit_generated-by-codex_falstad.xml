@@ -1,0 +1,9 @@
+<cir>
+<text>
+&lt;circuit name=""&gt;
+ &lt;voltage ac="true" offset="0" frequency="0" phase="0" v1="0" v2="sin(2_pi_time)"/&gt;
+ &lt;resistor resistance="R"/&gt;
+ &lt;capacitor capacitance="C"/&gt;
+&lt;/circuit&gt;
+</text>
+</cir>

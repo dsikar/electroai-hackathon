@@ -1,0 +1,15 @@
+<cir>
+  <source name="AC Source" voltage="" frequency="">
+    <component type="ac"/>
+    <connections>
+      <start>0, 0</start>
+      <end>2, 0</end>
+    </connections>
+  </source>
+  <wire from="2, 0" to="2, 2"/>
+  <capacitor name="C1" value=""/>
+  <diode name="D1" type="general"/>
+  <diode name="D2" type="general"/>
+  <capacitor name="C2" value=""/>
+  <resistor name="RL" value=""/>
+</cir>

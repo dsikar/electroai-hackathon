@@ -1,0 +1,38 @@
+<cir>
+  <item name="ResistorElm">
+    <pos x="128" y="128"/><pos2 x="128" y="256"/>
+    <value>14</value>
+  </item>
+  <item name="ResistorElm">
+    <pos x="128" y="128"/><pos2 x="256" y="128"/>
+    <value>3</value>
+  </item>
+  <item name="ResistorElm">
+    <pos x="256" y="128"/><pos2 x="256" y="256"/>
+    <value>5</value>
+  </item>
+  <item name="VoltageElm">
+    <pos x="384" y="128"/><pos2 x="384" y="192"/>
+    <value>15</value>
+  </item>
+  <item name="ResistorElm">
+    <pos x="384" y="192"/><pos2 x="384" y="256"/>
+    <value>4</value>
+  </item>
+  <item name="WireElm">
+    <pos x="256" y="128"/><pos2 x="384" y="128"/>
+  </item>
+  <item name="WireElm">
+    <pos x="128" y="256"/><pos2 x="256" y="256"/>
+  </item>
+  <item name="WireElm">
+    <pos x="256" y="256"/><pos2 x="384" y="256"/>
+  </item>
+  <item name="GroundElm">
+    <pos x="384" y="256"/><pos2 x="384" y="288"/>
+  </item>
+</cir>
+
+---
+
+###

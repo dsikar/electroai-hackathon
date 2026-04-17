@@ -1,0 +1,37 @@
+# IEEE Results Section Draft
+
+Insertion note: the current workspace does not contain `ElectroAIHackathonIEEETemplate/conference_101719.tex`, so this draft is provided as a standalone section for direct insertion into the manuscript. Representative Falstad and LTSpice figures were copied into `ElectroAIHackathonIEEETemplate/figures/`.
+
+## 4. Results
+
+### 4.1 Circuits 1-4: Partial Success
+
+The first four benchmark circuits yielded partial rather than complete success. In this context, partial success means that at least one agent and one output modality preserved a recognizable circuit structure, but the resulting artefacts were still accompanied by validation warnings, inferred parameters, or incomplete cross-modality consistency. The strongest examples in this phase were produced by Claude. Circuit 03, identified in the reports as an inverting amplifier, generated a non-trivial Falstad reconstruction and a renderable LTSpice schematic preview. These outputs are representative of the best behaviour observed in the early phase and are suggested for inclusion as Fig. X(a) and Fig. X(b). Even in this stronger case, however, the accompanying report records component-to-netlist mismatches and ambiguity about the exact amplifier interpretation, indicating that the pipeline recovered a plausible structure but not an unambiguously correct schematic.
+
+The same pattern appears across the remaining early circuits. Falstad previews for Circuits 01-04 are frequently non-empty and often visually structured, but the reports continue to identify missing values, inferred grounds, ambiguous source polarity, or incomplete component mapping. Codex contributes some structurally meaningful Falstad outputs in this phase, particularly for the simplest circuits, but its reports repeatedly indicate missing schema keys and its LTSpice branch is frequently reduced to placeholder output rather than a usable schematic. Gemini performs unevenly: some report summaries are coherent at the textual level, but the corresponding generated artefacts are often sparse, and the LTSpice previews are frequently too small or too generic to support a strong claim of successful reconstruction. Accordingly, the early-phase result is best interpreted as limited structural recovery under favorable conditions rather than robust multimodal circuit understanding.
+
+### 4.2 Circuits 5-8: Failure and Strong Degradation
+
+The second half of the benchmark shows a clear shift from partial recovery to failure or strong degradation at the study level. This does not require every later artefact to be empty; rather, the critical result is that consistent cross-agent, cross-modality reconstruction is no longer sustained. The most direct evidence comes from Gemini and Codex. For Gemini, multiple later Falstad outputs collapse to near-minimal files, and the LTSpice branch repeatedly degrades to placeholder content. Circuit 07 is a clear example: the Falstad text is reduced to a single header line, while the LTSpice file contains only the statement that Gemini did not return a valid LTSpice schematic. The corresponding copied Falstad and LTSpice previews are appropriate representatives for Fig. Y(b) and Fig. Y(c). These artefacts are not merely imperfect reconstructions; they indicate effective loss of the design modality itself.
+
+Codex exhibits a different failure mode. Later Falstad outputs can remain non-empty, but the reporting and LTSpice artefacts show persistent structural breakdown. In Circuit 05, for example, the report states that the model response did not match the expected schema, records an empty component list, and notes that the LTSpice netlist key was missing. The paired `.asc` file is a placeholder rather than a valid schematic. This pattern shows that non-zero Falstad content alone is insufficient evidence of successful recovery when the second modality and the validation layer both indicate collapse.
+
+Claude remains the strongest agent in the later phase and still produces richer Falstad and LTSpice previews than the other two systems. However, the later Claude outputs should still be classified as degraded rather than successful. Circuit 05, suggested as Fig. Y(a), remains visually interpretable as a bridge-rectifier-like topology in Falstad, yet its report still records missing transformer parameters, assumed diode and load values, and a mismatch between analysed components and the LTSpice netlist. Similar issue patterns continue in Circuits 06-08, where the reconstructions may remain readable but are no longer stable enough to count as reliable multimodal recovery. The later-phase result is therefore not that every agent fails identically, but that the benchmark ceases to produce reproducible, agent-robust circuit reconstruction.
+
+### 4.3 Agent and Modality Comparison
+
+Across the available artefacts, Claude produced the strongest visible reconstructions. Its Falstad previews are generally the most interpretable, and it is the only agent that repeatedly provides LTSpice schematics that render as non-trivial circuit diagrams across the full benchmark set. Nevertheless, Claude's reports still contain frequent validation findings, particularly missing labeled values, assumed operating conditions, and discrepancies between the natural-language analysis and the LTSpice instantiation. Claude therefore performs best in relative terms without reaching clean end-to-end correctness.
+
+Codex occupies an intermediate position. Several Codex Falstad outputs preserve some circuit structure, which makes the Falstad branch more informative than the LTSpice branch for this agent. However, the recurrent absence of required schema fields, repeated placeholder `.asc` files, and validation notes about incomplete outputs limit the usefulness of Codex for dual-modality reconstruction. Gemini is the weakest of the three agents at the artefact level. Its report prose can remain superficially plausible, but the corresponding Falstad and LTSpice artefacts frequently collapse to minimal or placeholder forms. This gap between narrative adequacy and generated engineering artefacts is itself a substantive result of the benchmark.
+
+The dual-modality design of the pipeline makes these differences easier to interpret. Falstad previews are the more informative modality for rapid visual triage because even imperfect netlists often yield a recognizable rendered topology. LTSpice previews are stricter: they make placeholder output, malformed schematics, and missing structural commitments immediately visible. In the early circuits, the two modalities sometimes converge toward the same broad interpretation, producing partial success. In the later circuits, the modalities diverge or collapse together, which is why Circuits 5-8 should be treated as failures or strong degradations despite isolated visually plausible outputs from the strongest agent.
+
+## Copied Figure Files
+
+Suggested figure mapping for manuscript insertion:
+
+- Fig. X(a): `ElectroAIHackathonIEEETemplate/figures/fig_partial_claude_c03_falstad.png`
+- Fig. X(b): `ElectroAIHackathonIEEETemplate/figures/fig_partial_claude_c03_ltspice.png`
+- Fig. Y(a): `ElectroAIHackathonIEEETemplate/figures/fig_degraded_claude_c05_falstad.png`
+- Fig. Y(b): `ElectroAIHackathonIEEETemplate/figures/fig_failure_gemini_c07_falstad.png`
+- Fig. Y(c): `ElectroAIHackathonIEEETemplate/figures/fig_failure_gemini_c07_ltspice.png`

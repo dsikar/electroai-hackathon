@@ -1,0 +1,33 @@
+* Full-Wave Bridge Rectifier
+* Agent: claude-sonnet-4-6
+* Source image: baseline-solution/data/schematics/images/01_circuit.png
+*
+* Transformer secondary modelled as a sinusoidal voltage source (12 V peak, 60 Hz).
+* Diodes: 1N4001 silicon rectifier.
+* Load: R1 = 1 kΩ.
+*
+* Nodes:
+*   1  = transformer secondary positive terminal (AC top)
+*   2  = transformer secondary negative terminal (AC bottom)
+*   3  = DC positive output
+*   0  = DC negative output / GND
+*
+* Bridge operation:
+*   Positive half-cycle: D1 and D3 conduct  (1 → D1 → 3 → R1 → 0 → D3 → 2)
+*   Negative half-cycle: D2 and D4 conduct  (2 → D2 → 3 → R1 → 0 → D4 → 1)
+
+V1 1 2 SIN(0 12 60)
+
+D1 1 3 D1N4001
+D2 2 3 D1N4001
+D3 0 2 D1N4001
+D4 0 1 D1N4001
+
+R1 3 0 1k
+
+.model D1N4001 D(IS=2.52n RS=0.0167 N=1.752 TT=20n CJO=13.76p M=0.3947 VJ=0.3905 BV=50 IBV=50n FC=0.5)
+
+.tran 10u 50m 0 10u
+
+.backanno
+.end

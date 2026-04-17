@@ -1,0 +1,12 @@
+* Full-wave bridge rectifier from uploaded schematic
+* Source image does not label the transformer ratio or load value.
+* Representative simulation: isolated 12 Vrms secondary at 50 Hz and 1 kOhm load.
+VSEC acp acn SIN(0 16.97 50)
+D1 acp out D1N4007
+D3 acn out D1N4007
+D4 0 acp D1N4007
+D2 0 acn D1N4007
+RLOAD out 0 1k
+.MODEL D1N4007 D(Is=2.52n Rs=0.568 N=1.73 Cjo=35p M=0.333 Vj=0.75 Bv=1000 Ibv=5u Tt=4.32u)
+.TRAN 0 120m 0 100u
+.END
