@@ -16,8 +16,8 @@ authoritative source. The key content is reproduced below for reference.
 
 | Score | Meaning |
 |-------|---------|
-| **1** | Not all core requirements implemented — major gaps; does not fully solve the task |
-| **2** | All core requirements implemented — works end-to-end, accurate/useful Excel output, solid level |
+| **1** | Not all core requirements implemented — major gaps; missing required artefacts or does not fully solve the task |
+| **2** | All core requirements implemented — working prototype, repository, IEEE-style paper, and presentation all provided; works end-to-end at a solid level |
 | **3** | Surpassed expectations — noticeably better: clever features, polish, real-world ready |
 | **4** | Blew my mind — exceptional: innovative, engineering-relevant, wow factor |
 
@@ -27,25 +27,34 @@ engineer-facing additions, elegant handling of edge cases, or clear potential to
 time and effort in engineering workflows. It should feel like *"this could actually change how
 we work"*.
 
+### Required Submission Artefacts
+
+Each team must provide the following before judging begins:
+
+1. **Working prototype** — a demonstrable prototype that runs or can be shown working end-to-end on a meaningful part of the task.
+2. **GitHub repository link** — the final submission repo containing the prototype code and supporting materials.
+3. **IEEE-style paper** — a PDF of the team's findings placed in the `docs/` directory of their repo, clearly named `<team name>-ieee.pdf`.
+4. **Presentation** — a clearly named presentation file, `<team name>.pdf` or `<team name>.ppt`, placed in the `docs/` directory of the repo.
+
 ### Scoring Categories
 
-The three prize categories that need a score are:
+The two scoring categories that need a score are:
 
-1. **Documentation** — clarity, completeness, reproducibility, quality of written artefacts
-2. **Presentation** — delivery, clarity of explanation, ability to answer questions
-3. **Code** — correctness, structure, readability, robustness, and engineering usefulness
+1. **Understanding** — how well the team understood the engineering problem, constraints, and significance, as evidenced in the paper and presentation
+2. **Solution** — how well the working prototype and repository address the task in practice
 
-An **Overall Winner** is determined from the combined scores across all three categories.
+The result is by majority decision.
 
 ### Judges
 
 - Dr Dave Muir (CSG)
 - Leotis Buchanan (CSG)
+- David Lee (Cubic)
 - TBA
 
 ### Teams
 
-Up to 6 teams will be scored.
+Up to 10 teams will be scored.
 
 ---
 
@@ -73,29 +82,40 @@ specified above. Include the guidance note for score 4 in smaller italic text be
 table. This box must appear at the top of the scoring sheet so judges can refer to it while
 scoring without turning the page.
 
-#### 3. Scoring Table
+#### 3. Submission Requirements Box
+
+A clearly boxed section listing the four required deliverables:
+
+- Working prototype
+- GitHub repository
+- IEEE-style paper
+- Presentation
+
+Include the naming and location conventions for the paper and presentation.
+
+#### 4. Scoring Table
 
 A table with the following columns:
 
-| Team # / Name | Documentation (1–4) | Presentation (1–4) | Code (1–4) | Total (3–12) | Notes |
-|---------------|--------------------|--------------------|------------|--------------|-------|
+| Team # / Name | Reqs 1–4 | Understanding (1–4) | Solution (1–4) | Total (2–8) | Notes |
+|---------------|----------|---------------------|----------------|-------------|-------|
 
-- Six rows (one per team), with alternating light background shading for readability.
+- Ten rows (one per team), with alternating light background shading for readability.
+- The `Reqs 1–4` column should contain four small handwritten check boxes labelled `1`, `2`, `3`, and `4` so the organiser can mark whether each submission requirement was met.
 - The **Total** column should have enough space for the judge to write the sum.
 - The **Notes** column should be wide enough for a short handwritten comment (at least 4 cm).
 - All score cells should be large enough to write a single digit clearly (minimum 1.5 cm wide).
 
-#### 4. Prize Category Summary
+#### 5. Prize Category Summary
 
-A small section below the table with four boxes, one per prize, for the judge to record their
+A small section below the table with boxes for the judge to record their
 recommended winner after scoring is complete:
 
-- Best Documentation → `Winner: ___________________________`
-- Best Presentation → `Winner: ___________________________`
-- Best Code → `Winner: ___________________________`
+- Best Understanding → `Winner: ___________________________`
+- Best Solution → `Winner: ___________________________`
 - Overall Winner → `Winner: ___________________________`
 
-#### 5. Footer
+#### 6. Footer
 
 A small footer with the text:
 *"ElectroAI Hackathon — Confidential judge scoring sheet"*

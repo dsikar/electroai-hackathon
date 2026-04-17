@@ -104,6 +104,10 @@ Join the overnight build session from **21:00 to 08:00** online or in person, wi
 ### Final Presentation (Fri April 10)
 Deliver your final project and presentation to our panel of judges.
 
+## Winning Teams
+- **Team Andrew:** [Image2Spice](https://github.com/EndryuN/Image2Spice)
+- **Team Ben:** [Baseline Solution](https://github.com/dsikar/electroai-hackathon/tree/main/baseline-solution)
+
 ---
 
 ## The Master Prompt
